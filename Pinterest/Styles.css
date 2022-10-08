@@ -1,0 +1,227 @@
+/* div{
+    outline: 1px solid red;
+} */
+@media screen and (max-width: 959px){
+    .Menuprincipal{100%;
+    }
+}
+header{
+    padding-top: 0;
+}
+.MenuPrincipal{
+    /* float: inherit; */
+    position: fixed;
+    background-color: white;
+}
+
+    .ContHeader{
+        display: flex; 
+        align-items: center;
+        width: 1550px;
+        padding: 0;
+    }
+
+        /* Aqui esta el contenedor Izq que tiene el Logo, Boton Inicio, y Lista Crear */
+        .ContIzq{
+            display: flex;
+            align-items:center;
+            padding: 15px;
+
+        }
+
+            .ContLogo {
+                width: 50px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .BtnInicio {
+                border: transparent;
+                border-radius: 50px;
+            }
+
+            .Inicio {
+                background-color: rgb(12, 10, 10);
+                color: aliceblue;
+                border-radius: 50px;
+                width: 70px;
+                height: 40px;
+            }
+
+            .ListaCrear {
+                width: 15px;
+            }
+
+    .Logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 70%;
+        margin: 15px;
+        padding-right: 10px;
+    } 
+    /* Este es el contenedor con el Buscador */
+    .ContBuscar {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        border: none;
+        border-radius: 900px;
+        width: 800px;
+        height: 40px;
+        background-color: rgb(219, 219, 219);
+    }
+    
+        .Buscar{
+            background-color: rgb(219, 219, 219);
+            border-radius: 900px;
+            border: transparent;
+            color: rgb(42, 42, 42);
+            width: 750px;    
+            height: 40px;
+        }
+
+
+    /* Contenedor del menu principal Derecho, contiene Iconos de Notificaciones, Mensajes y Cuenta de usuario */
+    .ContDer  {
+        display: flex;
+        align-items:center;
+    /* justify-content:space-between; */
+    /* width: fit-content; */
+        padding: 15px;
+    }
+
+    /* Contenedor con los elementos de Notificación, Mensajes y Cuenta de Usuario */
+    .Notificaciones{
+        width: 150px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .Notifica, .Mensaje, .Foto {
+            display: flex;
+            width: 40px;
+            height: 40px;
+        }
+ /* ////---------------------IMAGENES--------------------------------------///// */
+
+ .card-Image:hover .texto1{
+    visibility: visible; 
+}  
+
+.card-Image:hover .utons{
+    visibility: visible; 
+}
+
+img:hover{
+    opacity:70%;
+}
+
+/* .texto1:hover{
+    visibility: visible;
+} */
+
+.texto1:hover{
+    opacity: 70;
+}
+
+ .texto1{
+    /* opacity: 0; */
+    position: absolute;
+    visibility: hidden;
+    top: 15px;
+    left: 150px;
+    color: white;
+    moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background-color: rgb(105, 14, 14);
+    width: 70px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+/* button{
+    height: 20px;
+    width: 20px;
+} */
+
+
+.utons {
+    display: flex;
+    justify-content: space-between;
+    visibility: hidden;
+}
+
+.uton{
+/* outline: 1px solid red; */
+display: flex;
+height: 32px;
+width: 35px;
+align-items:baseline;
+position:absolute;
+bottom: 15px;
+left: 5px;
+}
+
+.uton1{
+    display: flex;
+    height: 32px;
+    width: 35px;
+    align-items:baseline;
+    position:absolute;
+    bottom: 15px;
+    left: 55px;
+}
+
+.uton2{
+    display: flex;
+    height: 32px;
+    width: 35px;
+    align-items:baseline;
+    position:absolute;
+    bottom: 15px;
+    left: 180px;
+}
+
+    /* visibility: hidden; */
+
+.uploadButton, .uploadButton1, .uploadButton2{
+    height: 20px;
+    width: 20px;
+}
+
+ .Padre{
+    padding-top: 100px;
+ }
+ .sectionImagenes{
+    padding-top: 100px;
+    display: flex;
+    width: 1550px;
+    flex: 1;
+}
+.imgPropiedad{
+    display:inline;
+    moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    }
+
+.card-Image{
+    display: inline-block;
+    position: relative;
+}
+
+ 
+
+
+.texto{
+    font-weight: 3px;
+    display: flex;
+    justify-content: center;
+}
